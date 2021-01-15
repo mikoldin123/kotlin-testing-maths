@@ -7,4 +7,7 @@
 
 ** NOTE: No need for the functions to work **
 
-2. 
+2. Given the following branches `feat/square-root` and `feat/percentage`, fix the conflicts and merge the branches `feat/percentage` with `feat/square-root`. After merging clean up the commit message output should be when `git log` is invoked:
+
+    `feat: Added percentage`
+    `feat: Added squareroot`
