@@ -1,3 +1,5 @@
+import kotlin.math.*
+
 fun main() {
    val value = doMaths(Operation.ADDITION, 10.0, 11.0)
    
