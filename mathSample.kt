@@ -8,7 +8,8 @@ fun main() {
 
 enum class Operation {
     ADDITION,
-    SUBTRACTION 
+    SUBTRACTION,
+    POWER
 }
 
 fun doMaths(operation: Operation, value1: Double, value2: Double): Double {
