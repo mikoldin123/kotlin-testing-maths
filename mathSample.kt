@@ -25,3 +25,7 @@ fun subtractNumbers(a: Double, b: Double): Double {
     var difference = a - b
     return difference
 }
+
+fun raisedTo(value: Double, power: Double): Double {
+    return value.pow(power)
+}
