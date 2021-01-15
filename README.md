@@ -12,6 +12,6 @@
     `feat: Added percentage`
     `feat: Added squareroot`
 
-3. Given the branch `feat/power` do a soft revert removing the committed change `feat: Added pie logger`, Stash the following change and create a new branch `feat/pie-logger` based form the `master` branch.
+3. Given the branch `feat/power` do a soft reset removing the committed change `feat: Added pie logger`, Stash the following change and create a new branch `feat/pie-logger` based form the `master` branch.
 
 	- `feat/power` should not have any git log ref of the removed commit changes
