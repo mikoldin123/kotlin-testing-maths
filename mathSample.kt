@@ -4,6 +4,10 @@ fun main() {
    val value = doMaths(Operation.ADDITION, 10.0, 11.0)
    
    println(value)
+
+   let pie = calculatePie()
+
+   println("VALUE OF PIE IS --- $pie")
 }
 
 enum class Operation {
@@ -32,4 +36,8 @@ fun subtractNumbers(a: Double, b: Double): Double {
 
 fun raisedTo(value: Double, power: Double): Double {
     return value.pow(power)
+}
+
+fun calculatePie(): Double {
+    return PI
 }
