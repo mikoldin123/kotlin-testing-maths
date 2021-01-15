@@ -12,11 +12,11 @@ enum class Operation {
     POWER
 }
 
-fun doMaths(operation: Operation, value1: Double, value2: Double): Double {
+fun doMaths(operation: Operation, value1: Double, value2: Double = 0.0): Double {
     when(operation) {
         Operation.ADDITION -> return addNumbers(value1, value2)
         Operation.SUBTRACTION -> return subtractNumbers(value1, value2)
-        Operation.POWER -> return raiedTo(value1, value2)
+        Operation.POWER -> return raisedTo(value1, value2)
     }
 }
 
